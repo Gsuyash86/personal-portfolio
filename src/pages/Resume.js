@@ -5,7 +5,7 @@ import resumePdf from '../assets/resume.pdf'
 const Resume = () => {
   return (
     <div className="resumeContainer"
-    >
+    >   
     <button className="download-button">
       <a
         href={resumePdf}

@@ -16,11 +16,11 @@ function App() {
         <Navbar /> 
         <div className='content-container'>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/projects/:id' element={<ProjectDisplay />} />
-          <Route path='/experience' element={<Experience />} />
-          <Route path='/resume' element={<Resume />} />
+          <Route path='/personal-portfolio' element={<Home />} />
+          <Route path='/personal-portfolio/projects' element={<Projects />} />
+          <Route path='/personal-portfolio/projects/:id' element={<ProjectDisplay />} />
+          <Route path='/personal-portfolio/experience' element={<Experience />} />
+          <Route path='/personal-portfolio/resume' element={<Resume />} />
         </Routes>
         </div>
         <Footer />

@@ -23,12 +23,12 @@ const Navbar = () => {
              {!expandNavbar ?  <ReorderIcon /> : <CloseIcon />}
           </div>
           <ul class={`menu-items ${expandNavbar ? 'toggle' : ''}` }>
-              <li><Link to='/' onClick={handleToggle}> Home </Link></li>
-              <li><Link to='/projects' onClick={handleToggle}> Projects </Link></li>
-              <li><Link to='/experience' onClick={handleToggle}> Experience </Link></li>    
-              <li><Link to='/resume' onClick={handleToggle}> Resume </Link></li>  
+              <li><Link to='/personal-portfolio' onClick={handleToggle}> Home </Link></li>
+              <li><Link to='/personal-portfolio/projects' onClick={handleToggle}> Projects </Link></li>
+              <li><Link to='/personal-portfolio/experience' onClick={handleToggle}> Experience </Link></li>    
+              <li><Link to='/personal-portfolio/resume' onClick={handleToggle}> Resume </Link></li>  
           </ul>
-          <Link to="/"><h1 class="logo"><img src={Logo} alt='logo' /></h1></Link>
+          <Link to="/personal-portfolio"><h1 class="logo"><img src={Logo} alt='logo' /></h1></Link>
         </div>
     </nav>
     </>
